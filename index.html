@@ -1,0 +1,66 @@
+<!-- 
+    CSCV337 Skeleton HTML File for Assignment 4
+    Levi Reyes
+    3/14/2024
+
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="index.css"/>
+  <script src="vigenere.js"></script>
+  <title>Assignment 4 - JavaScript</title>
+  
+</head>
+<body>
+  <div id="left" style="width:50%; float: left">
+      <!-- Put your HTML markup here -->
+    <h1 id="header">Vigenere Cipher</h1>
+
+    <div id="box">
+      <p>Enter Text Here:</p>
+      <input type="text" id="textInput" placeholder="Enter Text Here">
+    </div>
+
+    <br>
+
+    <div id="box">
+      <p>Enter Key Here:</p>
+      <input type="key" id="keyInput" placeholder="Enter Key Here">
+    </div>
+    
+    <br>
+
+    <div id="buttonbox">
+      <button id="encryptButton" onclick="display.value = encrypt(txtInput.value, keyInput.value)">Encrypt</button>
+
+      <button id="decryptButton" onclick="display.value = decrypt(txtInput.value, keyInput.value)">Decrypt</button>
+    </div>
+
+    <br>
+
+    <div id="resultbox">
+      <p>Result:</p>
+      <input disabled value="Result" id="result">
+    </div>
+
+    <script>
+      //Setting variables for each field
+      var Button1 = document.getElementById("encryptButton");
+      var Button2 = document.getElementById("decryptButton");
+      var txtInput = document.getElementById("textInput");
+      var keyInput = document.getElementById("keyInput");
+      var display = document.getElementById("result");
+
+      
+    </script>
+
+  </div>
+  <div id="right" style="width: 50%; float:right">
+      <iframe src="Tests.html" style="width:100%; min-height: 800px" />
+  </div>
+  <script src="vigenere.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+
+#left {
+    background-color: #0D3349;
+}
+
+#header {
+    background-color: goldenrod;
+    text-align: center;
+    border-style: solid;
+    border-color: slategray;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+}
+
+#box {
+    background-color: goldenrod;
+    border-style: solid;
+    border-color: slategray;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 12px;
+    padding-top: 0%;
+}
+
+#buttonbox {
+    background-color: goldenrod;
+    border-style: solid;
+    border-color: slategray;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 12px;
+}
+
+#resultbox {
+    background-color: goldenrod;
+    border-style: solid;
+    border-color: slategray;
+    border-radius: 10px;
+    margin: 10%;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 15px;
+    padding-top: 0%;
+}
